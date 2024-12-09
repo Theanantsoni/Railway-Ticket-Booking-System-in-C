@@ -1,0 +1,25 @@
+
+Name: admin1, Contact: 8140592856, Address: Surat, Email: aaa, Password: aaa
+
+Name: admin2, Contact: 8958648575, Address: Surat, Email: admin2@gmail.com, Password: 222
+
+Name: admin3, Contact: 9856458759, Address: Surat, Email: admin3@gmail.com, Password: 333
+
+Name: admin4, Contact: 8659745896, Address: Surat, Email: admin4@gmail.com, Password: 444
+
+Name: admin5, Contact: 9586487595, Address: Surat, Email: admin5@gmail.com, Password: 555
+
+
+Name: Anant, Contact: 8956232154, Address: surat, Email: anant@gmail.com, Password: 123
+
+Name: a, Contact: 26, Address: 3, Email: 23, Password: 23
+
+Name: Anant, Contact: 8140591020, Address: Surat, Email: Anant@gmail.com, Password: 2526
+
+Name: shubham danecha, Contact: 123456789, Address: gare, Email: shubham@gmail.com, Password: shubham
+
+Name: anant, Contact: 5, Address: a, Email: anant@gmail.com, Password: 2323
+
+Name: anant, Contact: 8140591020, Address: surat, Email: abc@gmail.com, Password: 123
+
+Name: abc@gmail, Contact: hkhkjh, Address: abc, Email: abc@gmail.com, Password: 123

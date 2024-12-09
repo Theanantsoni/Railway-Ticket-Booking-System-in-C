@@ -1,0 +1,207 @@
+1. Admin Side			2. Client Side
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Admin Side
+	
+	1. Registration	[When registered then asked for login]
+	2. Login
+
+2. Client Side
+	
+	1. Registration	[When registered then asked for login]
+	2. Login
+
+---------------------------------------------------------------------------------------- Destinations Details ----------------------------------------------------------------------------------------
+
+ No   	Source		Destination		AC Coach		Non-Ac Coach
+ 1    		Surat     		Vadodara		850				450
+ 2    		Surat     		Ahmedabad		2350			2150
+ 3    		Surat     		Rajkot			2150			1750
+ 4    		Surat     		Jamnagar		1750			1450
+ 5    		Surat     		Bhuj				1350			950
+ 6    		Surat     		Gandhinagar		950				650
+ 7    		Surat     		Junagadh		2250			1750
+ 8    		Surat     		Porbandar		1850			1250
+ 9    		Surat     		Palanpur			850				550
+ 10		Surat     		Navsari			1250			950
+
+---------------------------------------------------------------------------------------- Client Side Working ----------------------------------------------------------------------------------------
+
+Click	=>		Client Side		=>		Registration Fields
+
+Registration Fields : 
+	
+	Name
+	Contact Number
+	Address
+	Email Id
+	Password
+	Repeat Password
+
+[When Password & Repeat Password not match then again asked for password & repeat password]
+
+When Password & Confirm Password same then Confirmation for Details.	[Yes or No]
+
+When Yes	=>	All fields data will be stored in client_reg_data.txt file.
+
+After Registration		=>		For Login Details.
+
+Login Fields :		=> Check email & password from client_reg_data.txt file.
+	
+	Email
+	Password
+
+[When Email & Password are wrong then again asked for email & password]
+
+When correct details then details will be stored in client_log_data.txt file.
+
+After Login		=>		Process of  Ticket Booking
+
+Fill the Ticket Booking Fields : 
+	
+	Tourist Name
+	Tourist Age
+	Choice Destination
+	Coach	=>	AC & Non-AC		When AC	=>	Choice Food
+	Tickets Count		[How many tickets]
+	
+After fill the all details	=>	Check the details.
+
+After check the details	=>	Confirmation for book process.
+
+After book process =>	Ticket will be generated.
+
+Fields display in ticket :
+
+	Tourist Name: 
+	Tourist Age: 
+	Ticket Booked Date: 
+	Ticket Booked Time: 
+	Destination: 
+	Coach: 
+	Food: 
+	Total Tickets: 
+	Total Ticket Price: 
+	Payment Amount: 
+	Payment ID: 
+	Payment Status: 
+
+---------------------------------------------------------------------------------------- Admin Side Working ----------------------------------------------------------------------------------------
+
+Click	=>		Admin Side		=>		Registration Fields
+
+Registration Fields : 
+	
+	Name
+	Contact Number
+	Address
+	Email Id
+	Password
+	Repeat Password
+
+[When Password & Repeat Password not match then again asked for password & repeat password]
+
+When Password & Confirm Password same then Confirmation for Details.	[Yes or No]
+
+When Yes	=>	All fields data will be stored in admin_reg_data.txt file.
+
+After Registration		=>		For Login Details.
+
+Login Fields :		=> Check email & password from admin_reg_data.txt file.
+	
+	Email
+	Password
+
+[When Email & Password are wronf then again asked for email & password]
+
+When correct details then details will be stored in admin_log_data.txt file.
+
+After Login	===>>
+
+=>	Admin Can Be Check : 
+		
+		1.Check Admin Registration Data From		=>		admin_reg_data.txt
+		2.Check Admin Login Data From				=>		admin_log_data.txt
+		3.Check Client Registration Data From		=>		client_reg_data.txt
+		4.Check Client Login Data From				=>		client_reg_data.txt
+		5.Check Ticket Booking Data From			=>		ticketbook.txt
+		6. Exit
+
+------------------------------------------------------------------------------------ Function Used &  Working ------------------------------------------------------------------------------------
+
+int removeNewline(char *str)
+	
+	=> When data will be stored in text file then new data will be stored in new line.
+
+int confirmadminregDetails()
+
+int admincheckdata()
+
+	=> Admin Can Check :
+		
+		=> Admin Registration Data.
+		=> Admin Login Data.
+		=> Client Registration Data.
+		=> Client Login Data.
+		=> Booking Tickets Data
+		=> Delete Booked Ticket Data
+
+int adminregdata()
+
+	=> For registration for admin only.
+
+int adminlogdata()
+
+	=> For login for admin only. [When registration is done]
+
+int confirmclientregDetails()
+
+	=> For confirm & correct registration fields data.
+
+int clientregdata()
+
+	=> For registration for client.
+
+int clientlogdata()
+
+	=> For login for client.
+
+int generateBookingID(char bookingID[])
+
+	=> At a time of ticket booking process then generate a booking or payment ID.
+
+int BookACCoachTicket()
+
+	=> When click on AC coach then run this function for fill the fields for ticket booking.
+
+int BookNonACCoachTicket()
+
+	=> When click on Non-AC coach then run this function for fill the fields for ticket booking.
+
+int bookticket()
+
+	=> For stored all fields data in ticketbook.txt file.
+
+exitprogram()
+
+	=> For existing the code.
+
+restartapp()
+
+	=> Restart (Repeat) the Application
+
+deleteuserlogindata()
+
+	=> For delete the user login data
+
+deleteAdminRegisterData()
+
+	=> For delete the admin register data
+
+deleteBookedTicket()
+
+	=> For delete the booked tickets using payment ID.
+
+
+

@@ -1,0 +1,16 @@
+
+Name: client1, Contact: 8659874585, Address: Surat, Email: client1@gmail.com, Password: 111
+
+Name: client2, Contact: 8548526315, Address: Surat, Email: client2@gmail.com, Password: 222
+
+Name: client3, Contact: 9215352486, Address: Surat, Email: client3@gmail.com, Password: 333
+
+Name: client4, Contact: 7852326598, Address: Surat, Email: client4@gmail.com, Password: 444
+
+Name: client5, Contact: 8412536982, Address: Surat, Email: client5@gmail.com, Password: 555
+
+Name: try, Contact: 56, Address: 56, Email: try@gmail.com, Password: 123
+
+Name: anant, Contact: 56, Address: s, Email: anant@gmail.com, Password: 369
+
+Name: anant, Contact: 8140591020, Address: surat, Email: abc@gmail.com, Password: 123
